@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Usuário</title>
+</head>
+<body>
+  <div class="card" style="border: 1px solid #ccc; border-radius: 8px; padding: 16px; margin: 16px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <div class="card-header" style="font-size: 20px; font-weight: bold; margin-bottom: 12px;">Cadastro de Usuário</div>
+    <form>
+      <label for="nome">Nome:</label><br>
+      <input type="text" id="nome" name="nome"><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br><br>
+
+      <label for="senha">Senha:</label><br>
+      <input type="password" id="senha" name="senha"><br><br>
+
+      <label for="idade">Idade:</label><br>
+      <input type="number" id="idade" name="idade" min="18" max="120"><br><br>
+
+      <label for="genero">Gênero:</label><br>
+      <select id="genero" name="genero">
+        <option value="masculino">Masculino</option>
+        <option value="feminino">Feminino</option>
+        <option value="outro">Outro</option>
+      </select><br><br>
+
+      <label for="aceitar-termos">Aceitar termos:</label>
+      <input type="checkbox" id="aceitar-termos" name="aceitar-termos"><br><br>
+
+      <input type="submit" value="Enviar">
+    </form>
+    <div class="card-footer" style="color: #888; font-size: 14px; margin-top: 12px;">© 2024 - Todos os direitos reservados</div>
+  </div>
+</body>
+</html>
